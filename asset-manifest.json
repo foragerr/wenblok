@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/wenbloke/static/css/main.56316615.chunk.css",
-    "main.js": "/wenbloke/static/js/main.68c8cc3a.chunk.js",
-    "main.js.map": "/wenbloke/static/js/main.68c8cc3a.chunk.js.map",
-    "runtime-main.js": "/wenbloke/static/js/runtime-main.b8714bcd.js",
-    "runtime-main.js.map": "/wenbloke/static/js/runtime-main.b8714bcd.js.map",
-    "static/js/2.aedf29c3.chunk.js": "/wenbloke/static/js/2.aedf29c3.chunk.js",
-    "static/js/2.aedf29c3.chunk.js.map": "/wenbloke/static/js/2.aedf29c3.chunk.js.map",
-    "index.html": "/wenbloke/index.html",
-    "static/css/main.56316615.chunk.css.map": "/wenbloke/static/css/main.56316615.chunk.css.map",
-    "static/js/2.aedf29c3.chunk.js.LICENSE.txt": "/wenbloke/static/js/2.aedf29c3.chunk.js.LICENSE.txt"
+    "main.css": "/foobar/static/css/main.56316615.chunk.css",
+    "main.js": "/foobar/static/js/main.e31dbb7e.chunk.js",
+    "main.js.map": "/foobar/static/js/main.e31dbb7e.chunk.js.map",
+    "runtime-main.js": "/foobar/static/js/runtime-main.116b7caf.js",
+    "runtime-main.js.map": "/foobar/static/js/runtime-main.116b7caf.js.map",
+    "static/js/2.aedf29c3.chunk.js": "/foobar/static/js/2.aedf29c3.chunk.js",
+    "static/js/2.aedf29c3.chunk.js.map": "/foobar/static/js/2.aedf29c3.chunk.js.map",
+    "index.html": "/foobar/index.html",
+    "static/css/main.56316615.chunk.css.map": "/foobar/static/css/main.56316615.chunk.css.map",
+    "static/js/2.aedf29c3.chunk.js.LICENSE.txt": "/foobar/static/js/2.aedf29c3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b8714bcd.js",
+    "static/js/runtime-main.116b7caf.js",
     "static/js/2.aedf29c3.chunk.js",
     "static/css/main.56316615.chunk.css",
-    "static/js/main.68c8cc3a.chunk.js"
+    "static/js/main.e31dbb7e.chunk.js"
   ]
 }
