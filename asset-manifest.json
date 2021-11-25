@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wenblok/static/css/main.56316615.chunk.css",
-    "main.js": "/wenblok/static/js/main.9af28143.chunk.js",
-    "main.js.map": "/wenblok/static/js/main.9af28143.chunk.js.map",
+    "main.js": "/wenblok/static/js/main.f3d57faa.chunk.js",
+    "main.js.map": "/wenblok/static/js/main.f3d57faa.chunk.js.map",
     "runtime-main.js": "/wenblok/static/js/runtime-main.4adaf5e2.js",
     "runtime-main.js.map": "/wenblok/static/js/runtime-main.4adaf5e2.js.map",
     "static/js/2.aedf29c3.chunk.js": "/wenblok/static/js/2.aedf29c3.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.4adaf5e2.js",
     "static/js/2.aedf29c3.chunk.js",
     "static/css/main.56316615.chunk.css",
-    "static/js/main.9af28143.chunk.js"
+    "static/js/main.f3d57faa.chunk.js"
   ]
 }
