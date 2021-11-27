@@ -1,0 +1,42 @@
+[
+  {
+    "blockheight": 39251,
+    "event": "Pool 1 Last Mine",
+    "link": "https://discord.gg/aK7kgwsq"
+  },
+  {
+    "blockheight": 39548,
+    "event": "NYC Cycle 0 Ends",
+    "link": "https://minecitycoins.com/nyc/dashboard?chain=mainnet"
+  },
+  {
+    "blockheight": 39252,
+    "event": "Pool 2 Mining Begins",
+    "link": "https://discord.gg/aK7kgwsq"
+  },
+  {
+    "blockheight": 39351,
+    "event": "Pool 1 Payout",
+    "link": "https://discord.gg/aK7kgwsq"
+  },
+  {
+    "blockheight": 39549,
+    "event": "NYC Cycle 1 Begins",
+    "link": "https://minecitycoins.com/nyc/dashboard?chain=mainnet"
+  },
+  {
+    "blockheight": 41167,
+    "event": "Update 2.05 is activated",
+    "link": "https://github.com/stacksgov/sips/pull/41"
+  },
+  {
+    "blockheight": 41050,
+    "event": "Pool 3 Information Available",
+    "link": "https://discord.gg/aK7kgwsq"
+  },
+  {
+    "blockheight": 41449,
+    "event": "Pool 2 Payout",
+    "link": "https://discord.com/channels/827950736087449601/905622527211106334/912611985714200617"
+  }
+]
