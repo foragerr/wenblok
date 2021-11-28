@@ -1,12 +1,11 @@
 # Wen Blok !?
 
-Hosted at https://foragerr.github.io/wenblok/ , Wenblock displays a list of of STX blocks with some significance and their approximate calendar time. 
-
-The blocks listed on the page are in this file: https://github.com/foragerr/wenblok/blob/main/blocks.json
+Wenblock displays a list of of interesting STX blocks, their approximate calendar time. 
 
 # Adding Blocks
 
-To add additional blocks to Wenblok's list, please raise a PR against this repo.
+The blocks listed on the page are in this file: https://github.com/foragerr/wenblok/blob/main/blocks.json
+To add additional blocks to track in Wenblok's list, please raise a PR against this repo.
 
 # Issues
 
