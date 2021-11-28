@@ -1,22 +1,7 @@
 [
   {
-    "blockheight": 39251,
-    "event": "Pool 1 Last Mine",
-    "link": "https://discord.gg/aK7kgwsq"
-  },
-  {
-    "blockheight": 39548,
-    "event": "NYC Cycle 0 Ends",
-    "link": "https://minecitycoins.com/nyc/dashboard?chain=mainnet"
-  },
-  {
     "blockheight": 39252,
     "event": "Pool 2 Mining Begins",
-    "link": "https://discord.gg/aK7kgwsq"
-  },
-  {
-    "blockheight": 39351,
-    "event": "Pool 1 Payout",
     "link": "https://discord.gg/aK7kgwsq"
   },
   {
