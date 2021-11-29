@@ -10,6 +10,11 @@
     "link": "https://minecitycoins.com/nyc/dashboard?chain=mainnet"
   },
   {
+    "blockheight": 41649,
+    "event": "NYC Cycle 2 Begins",
+    "link": "https://minecitycoins.com/nyc/dashboard?chain=mainnet"
+  },
+  {
     "blockheight": 41167,
     "event": "Update 2.05 goes live",
     "link": "https://github.com/stacksgov/sips/pull/41#issuecomment-969108726"
