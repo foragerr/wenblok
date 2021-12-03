@@ -10,6 +10,11 @@
     "link": "https://minecitycoins.com/nyc/dashboard?chain=mainnet"
   },
   {
+    "blockheight": 40200,
+    "event": "Arkadiko NFT",
+    "link": "https://arkadiko.wtf/"
+  },
+  {
     "blockheight": 41649,
     "event": "NYC Cycle 2 Begins",
     "link": "https://minecitycoins.com/nyc/dashboard?chain=mainnet"
