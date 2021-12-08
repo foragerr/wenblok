@@ -1,28 +1,8 @@
 [
   {
-    "blockheight": 39252,
-    "event": "Pool 2 Mining Begins",
-    "link": "https://discord.gg/aK7kgwsq"
-  },
-  {
-    "blockheight": 39549,
-    "event": "NYC Cycle 1 Begins",
-    "link": "https://minecitycoins.com/nyc/dashboard?chain=mainnet"
-  },
-  {
-    "blockheight": 43749,
-    "event": "NYC Cycle 3 Begins",
-    "link": "https://minecitycoins.com/nyc/dashboard?chain=mainnet"
-  },
-  {
     "blockheight": 40200,
     "event": "Arkadiko NFT",
     "link": "https://arkadiko.wtf/"
-  },
-  {
-    "blockheight": 41649,
-    "event": "NYC Cycle 2 Begins",
-    "link": "https://minecitycoins.com/nyc/dashboard?chain=mainnet"
   },
   {
     "blockheight": 40607,
@@ -35,8 +15,38 @@
     "link": "https://discord.gg/aK7kgwsq"
   },
   {
+    "blockheight": 39252,
+    "event": "Pool 2 Mining Begins",
+    "link": "https://discord.gg/aK7kgwsq"
+  },
+  {
     "blockheight": 41449,
     "event": "Pool 2 Payout",
     "link": "https://discord.com/channels/827950736087449601/905622527211106334/912611985714200617"
+  },
+  {
+    "blockheight": 39549,
+    "event": "NYC Cycle 1 Begins",
+    "link": "https://minecitycoins.com/nyc/dashboard?chain=mainnet"
+  },
+  {
+    "blockheight": 41649,
+    "event": "NYC Cycle 2 Begins",
+    "link": "https://minecitycoins.com/nyc/dashboard?chain=mainnet"
+  },
+  {
+    "blockheight": 43749,
+    "event": "NYC Cycle 3 Begins",
+    "link": "https://minecitycoins.com/nyc/dashboard?chain=mainnet"
+  },
+  {
+    "blockheight": 39197,
+    "event": "MIA Cycle 7 Begins",
+    "link": "https://minecitycoins.com/mia/dashboard?chain=mainnet"
+  },
+  {
+    "blockheight": 41297,
+    "event": "MIA Cycle 8 Begins",
+    "link": "https://minecitycoins.com/mia/dashboard?chain=mainnet"
   }
 ]
