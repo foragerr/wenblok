@@ -1,18 +1,13 @@
 [
   {
-    "blockheight": 40200,
-    "event": "Arkadiko NFT",
-    "link": "https://arkadiko.wtf/"
-  },
-  {
     "blockheight": 40607,
     "event": "Update 2.05 goes live (BTC Block 713000)",
     "link": "https://github.com/stacksgov/sips/pull/41#issuecomment-969108726"
   },
   {
     "blockheight": 41050,
-    "event": "Pool 3 Information Available",
-    "link": "https://discord.gg/aK7kgwsq"
+    "event": "Pool 3 Information Posted",
+    "link": "https://discord.com/channels/827950736087449601/905622527211106334/918889741590622268"
   },
   {
     "blockheight": 39252,
@@ -24,6 +19,23 @@
     "event": "Pool 2 Payout",
     "link": "https://discord.com/channels/827950736087449601/905622527211106334/912611985714200617"
   },
+  
+  {
+    "blockheight": 41349,
+    "event": "Pool 3 Close (Could close earlier if 1M limit reached)",
+    "link": "https://discord.gg/aK7kgwsq"
+  },
+  {
+    "blockheight": 41349,
+    "event": "Pool 3 Mining Starts",
+    "link": "https://discord.gg/aK7kgwsq"
+  },
+  {
+    "blockheight": 43549,
+    "event": "Pool 3 Mining Ends, Payout shortly after",
+    "link": "https://discord.gg/aK7kgwsq"
+  },
+
   {
     "blockheight": 39549,
     "event": "NYC Cycle 1 Begins",
@@ -39,6 +51,7 @@
     "event": "NYC Cycle 3 Begins",
     "link": "https://minecitycoins.com/nyc/dashboard?chain=mainnet"
   },
+  
   {
     "blockheight": 39197,
     "event": "MIA Cycle 7 Begins",
