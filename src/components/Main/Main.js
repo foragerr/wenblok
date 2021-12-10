@@ -4,7 +4,6 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import styles from "assets/adminStyle.js";
 import Blocklist from "components/Blocklist/Blocklist";
-import Modal from "components/Modal/Modal.js";
 
 
 const useStyles = makeStyles(styles);
@@ -21,9 +20,6 @@ export default function MainPanel() {
         showModal={showModal}
         setShowModal={setShowModal}/>
 
-      <Modal 
-        showModal={showModal}
-        setShowModal={setShowModal}/>
     </div>
   );
 }

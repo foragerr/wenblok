@@ -6,7 +6,6 @@ import {  Configuration, BlocksApi } from "@stacks/blockchain-api-client";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 import LocalOffer from "@material-ui/icons/LocalOffer";
-import Button from "@material-ui/core/Button";
 import CheckBoxOutlineBlank from "@material-ui/icons/CheckBoxOutlineBlank"
 import WatchOutlined from "@material-ui/icons/WatchOutlined"
 import WifiTetheringOutlined from "@material-ui/icons/WifiTetheringOutlined"
@@ -72,10 +71,16 @@ export default function BlockList({showModal, setShowModal}) {
   const [ futureBlocks , setFutureBlocks ] = useState(null);
   const [ pastBlocks, setPastBlocks ] = useState(null);
   const [ currentBlockheight, setCurrentBlockheight ] = useState('');
+
   const [ nycCycle, setNycCycle ] = useState(0)
   const [ nycCycleStart, setNycCycleStart ] = useState(0)
   const [ nycCycleEnd, setNycCycleEnd ] = useState(0)
   const [ nycCyclePercentComplete, setNycCyclePercentComplete] = useState(0)
+
+  const [ miaCycle, setMiaCycle ] = useState(0)
+  const [ miaCycleStart, setMiaCycleStart ] = useState(0)
+  const [ miaCycleEnd, setMiaCycleEnd ] = useState(0)
+  const [ miaCyclePercentComplete, setMiaCyclePercentComplete] = useState(0)
 
   const [ now ] = useState(new Date())
 
@@ -107,16 +112,28 @@ export default function BlockList({showModal, setShowModal}) {
             var currentBlock = blockList.results[0];
             setCurrentBlockheight(currentBlock.height);
 
-            var nycStartingBlock = 37449
+            
             var cycleSize = 2100
-            var currentCycle = Math.floor((parseInt(currentBlock.height) - nycStartingBlock) / cycleSize)
-            var cycleStartingBlock = nycStartingBlock + currentCycle * cycleSize
-            var cycleEndBlock = nycStartingBlock - 1 + (currentCycle + 1) * cycleSize
 
-            setNycCycle(currentCycle)
-            setNycCycleStart(cycleStartingBlock)
-            setNycCycleEnd(cycleEndBlock)
-            setNycCyclePercentComplete(((currentBlock.height - cycleStartingBlock) * 100) / (cycleEndBlock - cycleStartingBlock))
+            var nycStartingBlock = 37449
+            var nycCurrentCycle = Math.floor((parseInt(currentBlock.height) - nycStartingBlock) / cycleSize)
+            var nycCycleStartingBlock = nycStartingBlock + nycCurrentCycle * cycleSize
+            var nycCycleEndBlock = nycStartingBlock - 1 + (nycCurrentCycle + 1) * cycleSize
+
+            var miaStartingBlock = 24497
+            var miaCurrentCycle = Math.floor((parseInt(currentBlock.height) - miaStartingBlock) / cycleSize)
+            var miaCycleStartingBlock = miaStartingBlock + miaCurrentCycle * cycleSize
+            var miaCycleEndBlock = miaStartingBlock - 1 + (miaCurrentCycle + 1) * cycleSize
+
+            setNycCycle(nycCurrentCycle)
+            setNycCycleStart(nycCycleStartingBlock)
+            setNycCycleEnd(nycCycleEndBlock)
+            setNycCyclePercentComplete(((currentBlock.height - nycCycleStartingBlock) * 100) / (nycCycleEndBlock - nycCycleStartingBlock))
+
+            setMiaCycle(miaCurrentCycle)
+            setMiaCycleStart(miaCycleStartingBlock)
+            setMiaCycleEnd(miaCycleEndBlock)
+            setMiaCyclePercentComplete(((currentBlock.height - miaCycleStartingBlock) * 100) / (miaCycleEndBlock - miaCycleStartingBlock))
 
             setFutureBlocks(
               responseJson.flatMap ( 
@@ -177,7 +194,7 @@ export default function BlockList({showModal, setShowModal}) {
               <CardIcon color="info">
                 <LoopOutlined />
               </CardIcon>
-              <p className={classes.cardCategory}>NYC Cycle Number</p>
+              <p className={classes.cardCategory}>Current NYC Cycle</p>
               <div className={classes.cardTitle}>
                 <h3>{nycCycle}</h3>
               </div>
@@ -192,13 +209,34 @@ export default function BlockList({showModal, setShowModal}) {
           </Card>
         </GridItem>
 
-        <GridItem xs={12} sm={6} md={6}>
+        <GridItem xs={12} sm={3} md={3}>
+          <Card>
+            <CardHeader color="info" stats icon>
+              <CardIcon color="info">
+                <LoopOutlined />
+              </CardIcon>
+              <p className={classes.cardCategory}>Current MIA Cycle</p>
+              <div className={classes.cardTitle}>
+                <h3>{miaCycle}</h3>
+              </div>
+            </CardHeader>
+            <CardFooter stats>
+              <div className={classes.stats}> {miaCycleStart} </div>
+              <Box sx={{ width: '100%' }}>
+                <LinearProgressWithLabel value={miaCyclePercentComplete} />
+              </Box>
+              <div className={classes.stats}> {miaCycleEnd} </div>
+            </CardFooter>
+          </Card>
+        </GridItem>
+
+        <GridItem xs={12} sm={3} md={3}>
           <Card>
             <CardHeader color="info" stats icon>
               <CardIcon color="info">
                 <WatchOutlined />
               </CardIcon>
-              <p className={classes.cardCategory}>Timezone</p>
+              <p className={classes.cardCategory}>Your Timezone</p>
               <div className={classes.cardTitle}>
                 <h3>{Intl.DateTimeFormat().resolvedOptions().timeZone}</h3>
               </div>
@@ -220,14 +258,6 @@ export default function BlockList({showModal, setShowModal}) {
                 <p className={classes.cardCategoryWhite}>
                   Disclaimer: Best effort estimates
                 </p>
-              </div>
-              <div className={classes.floatright}>
-                <Button 
-                  className={classes.button} 
-                  variant="outlined" 
-                  onClick={e => {
-                    setShowModal(true)
-                  }}>Customize</Button>
               </div>
             </CardHeader>
             <CardBody>
