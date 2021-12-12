@@ -128,12 +128,12 @@ export default function BlockList({showModal, setShowModal}) {
             setNycCycle(nycCurrentCycle)
             setNycCycleStart(nycCycleStartingBlock)
             setNycCycleEnd(nycCycleEndBlock)
-            setNycCyclePercentComplete(((currentBlock.height - nycCycleStartingBlock) * 100) / (nycCycleEndBlock - nycCycleStartingBlock))
+            setNycCyclePercentComplete( Math.floor(((currentBlock.height - nycCycleStartingBlock) * 100) / (nycCycleEndBlock - nycCycleStartingBlock)) )
 
             setMiaCycle(miaCurrentCycle)
             setMiaCycleStart(miaCycleStartingBlock)
             setMiaCycleEnd(miaCycleEndBlock)
-            setMiaCyclePercentComplete(((currentBlock.height - miaCycleStartingBlock) * 100) / (miaCycleEndBlock - miaCycleStartingBlock))
+            setMiaCyclePercentComplete( Math.floor(((currentBlock.height - miaCycleStartingBlock) * 100) / (miaCycleEndBlock - miaCycleStartingBlock)) )
 
             setFutureBlocks(
               responseJson.flatMap ( 
