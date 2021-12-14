@@ -1,15 +1,5 @@
 [
   {
-    "blockheight": 41349,
-    "event": "Pool 2 Mining Ends",
-    "link": "https://discord.gg/aK7kgwsq"
-  },
-  {
-    "blockheight": 39252,
-    "event": "Pool 2 Mining Begins",
-    "link": "https://discord.gg/aK7kgwsq"
-  },
-  {
     "blockheight": 41449,
     "event": "Pool 2 Payout",
     "link": "https://discord.com/channels/827950736087449601/905622527211106334/912611985714200617"
@@ -17,7 +7,7 @@
   
   {
     "blockheight": 41450,
-    "event": "Pool 3 Close (Could close earlier if 1M limit reached)",
+    "event": "Pool 3 Closed",
     "link": "https://discord.gg/aK7kgwsq"
   },
   {
