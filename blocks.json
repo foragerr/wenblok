@@ -1,21 +1,14 @@
-[
-  {
-    "blockheight": 41890,
-    "event": "MIA Pool X Mining Begins",
-    "link": "https://discord.com/channels/827950736087449601/920840065075277854/920907716833189908"
-  },
-  
+[  
   {
     "blockheight": 41350,
-    "event": "Pool 3 Mining Starts",
+    "event": "NYC Pool 3 Mining Starts",
     "link": "https://discord.gg/aK7kgwsq"
   },
   {
     "blockheight": 43549,
-    "event": "Pool 3 Mining Ends, Payout shortly after",
+    "event": "NYC Pool 3 Mining Ends, Payout shortly after",
     "link": "https://discord.gg/aK7kgwsq"
   },
-
   {
     "blockheight": 45848,
     "event": "NYC Cycle 4 Begins",
@@ -32,6 +25,11 @@
     "link": "https://minecitycoins.com/nyc/dashboard?chain=mainnet"
   },
   
+  {
+    "blockheight": 41890,
+    "event": "MIA Pool X Mining Begins",
+    "link": "https://discord.com/channels/827950736087449601/920840065075277854/920907716833189908"
+  },
   {
     "blockheight": 41297,
     "event": "MIA Cycle 8 Begins",
