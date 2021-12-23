@@ -1,7 +1,7 @@
 [  
   {
     "blockheight": 41350,
-    "event": "NYC Pool 3 Mining Starts",
+    "event": "NYC Pool 3 Mining Begins",
     "link": "https://discord.gg/aK7kgwsq"
   },
   {
@@ -9,6 +9,17 @@
     "event": "NYC Pool 3 Mining Ends, Payout shortly after",
     "link": "https://discord.gg/aK7kgwsq"
   },
+  {
+    "blockheight": 43449,
+    "event": "Pool 4 Opens",
+    "link": "https://discord.com/channels/827950736087449601/905622527211106334/923258792886550548"
+  },
+  {
+    "blockheight": 43755,
+    "event": "Pool 4 Mining Begins",
+    "link": "https://discord.com/channels/827950736087449601/905622527211106334/923258792886550548"
+  },
+  
   {
     "blockheight": 45848,
     "event": "NYC Cycle 4 Begins",
