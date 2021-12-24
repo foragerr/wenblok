@@ -5,17 +5,17 @@
     "link": "https://discord.gg/aK7kgwsq"
   },
   {
-    "blockheight": 43549,
+    "blockheight": 43449,
     "event": "NYC Pool 3 Mining Ends, Payout shortly after",
     "link": "https://discord.gg/aK7kgwsq"
   },
   {
-    "blockheight": 43449,
+    "blockheight": 43100,
     "event": "Pool 4 Opens",
     "link": "https://discord.com/channels/827950736087449601/905622527211106334/923258792886550548"
   },
   {
-    "blockheight": 43755,
+    "blockheight": 43449,
     "event": "Pool 4 Mining Begins",
     "link": "https://discord.com/channels/827950736087449601/905622527211106334/923258792886550548"
   },
@@ -39,6 +39,11 @@
   {
     "blockheight": 41890,
     "event": "MIA Pool X Mining Begins",
+    "link": "https://discord.com/channels/827950736087449601/920840065075277854/920907716833189908"
+  },
+  {
+    "blockheight": 43100,
+    "event": "MIA Smart Contract Pool 1",
     "link": "https://discord.com/channels/827950736087449601/920840065075277854/920907716833189908"
   },
   {
