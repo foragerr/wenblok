@@ -263,11 +263,16 @@ export default function BlockList({showModal, setShowModal}) {
             <CardBody>
               <Table
                 tableHeaderColor="rose"
-                tableHead={["Block#", "Event", "WEN BLOK !?"]}
+                tableHead={["Block#", "Event", "WEN BLOK !?", "Info"]}
                 tableData={
-                  futureBlocks == null ? [['Loading...', 'Loading...', 'Loading...']] :
+                  futureBlocks == null ? [['Loading...', 'Loading...', 'Loading...', 'Loading...']] :
                     futureBlocks.map( 
-                      x => [x.blockheight.toString(), x.event, x.when] 
+                      x => [
+                        x.blockheight.toString(), 
+                        x.event, 
+                        x.when, 
+                        <a href={x.link} target="_blank" rel="noopener noreferrer"> {x.link} </a>
+                      ] 
                     )
                 }
               />
@@ -286,11 +291,16 @@ export default function BlockList({showModal, setShowModal}) {
             <CardBody>
             <Table
                 tableHeaderColor="success"
-                tableHead={["Block#", "Event", "WEN BLOK !?"]}
+                tableHead={["Block#", "Event", "WEN BLOK !?", "Info"]}
                 tableData={
-                  pastBlocks == null ? [['Loading...', 'Loading...', 'Loading...']] :
+                  pastBlocks == null ? [['Loading...', 'Loading...', 'Loading...', 'Loading...']] :
                     pastBlocks.map( 
-                      x => [x.blockheight.toString(), x.event, x.when] 
+                      x => [
+                        x.blockheight.toString(), 
+                        x.event, 
+                        x.when, 
+                        <a href={x.link}target="_blank" rel="noopener noreferrer"> {x.link} </a>
+                      ] 
                     ).reverse()
                 }
               />
