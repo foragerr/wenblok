@@ -18,6 +18,14 @@ export default function CustomTable(props) {
   return (
     <div className={classes.tableResponsive}>
       <Table className={classes.table}>
+
+        <colgroup>
+          <col style={{width:'15%'}}/>
+          <col style={{width:'20%'}}/>
+          <col style={{width:'20%'}}/>
+          <col style={{width:'45%'}}/>
+        </colgroup>
+
         {tableHead !== undefined ? (
           <TableHead className={classes[tableHeaderColor + "TableHeader"]}>
             <TableRow className={classes.tableHeadRow}>
