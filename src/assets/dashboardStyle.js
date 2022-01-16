@@ -45,6 +45,11 @@ const dashboardStyle = {
     paddingTop: "10px",
     marginBottom: "0",
   },
+  cardCategoryLink: {
+    color: grayColor[0],
+    paddingTop: "10px",
+    display: "inline-block",
+  },
   cardCategoryWhite: {
     color: "rgba(" + hexToRgb(whiteColor) + ",.62)",
     margin: "0",

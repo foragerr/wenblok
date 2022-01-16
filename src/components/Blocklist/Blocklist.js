@@ -194,7 +194,7 @@ export default function BlockList({showModal, setShowModal}) {
               <CardIcon color="info">
                 <LoopOutlined />
               </CardIcon>
-              <p className={classes.cardCategory}>Current NYC Cycle</p>
+              <a href='https://minecitycoins.com/nyc/dashboard?chain=mainnet' target="_blank" rel="noopener noreferrer" className={classes.cardCategoryLink}>Current NYC Cycle</a>
               <div className={classes.cardTitle}>
                 <h3>{nycCycle}</h3>
               </div>
@@ -215,7 +215,7 @@ export default function BlockList({showModal, setShowModal}) {
               <CardIcon color="info">
                 <LoopOutlined />
               </CardIcon>
-              <p className={classes.cardCategory}>Current MIA Cycle</p>
+              <a href='https://minecitycoins.com/mia/dashboard?chain=mainnet' target="_blank" rel="noopener noreferrer" className={classes.cardCategoryLink}>Current MIA Cycle</a>
               <div className={classes.cardTitle}>
                 <h3>{miaCycle}</h3>
               </div>
