@@ -1,28 +1,8 @@
 [
     {
-        "blockheight": 43549,
-        "event": "NYC Pool 4 Mining Begins",
-        "link": "https://discord.com/channels/827950736087449601/905622527211106334/927390432202194975"
-    },
-    {
-        "blockheight": 45000,
-        "event": "NYC Pool 5 Open for Contributions",
-        "link": "https://discord.gg/NzEG5TKV"
-    },
-    {
-        "blockheight": 45549,
-        "event": "NYC Pool 4 Mining Ends",
-        "link": "https://discord.gg/NzEG5TKV"
-    },
-    {
         "blockheight": 45550,
         "event": "NYC Pool 5 Mining Begins",
         "link": "https://discord.gg/NzEG5TKV"
-    },
-    {
-        "blockheight": 45593,
-        "event": "ALEX Mainnet & IDO Lottery",
-        "link": "https://app.alexlab.co/launchpad"
     },
     {
         "blockheight": 45655,
@@ -40,14 +20,9 @@
         "link": "https://mining.nyc/stack"
     },
     {
-        "blockheight": 43749,
-        "event": "NYC Cycle 3 Begins",
+        "blockheight": 47949,
+        "event": "NYC Cycle 5 Begins",
         "link": "https://mining.nyc/stack"
-    },
-    {
-        "blockheight": 43100,
-        "event": "MIA Pool 9",
-        "link": "https://discord.com/channels/827950736087449601/920840065075277854/925570412807594054"
     },
     {
         "blockheight": 45000,
@@ -60,18 +35,13 @@
         "link": "https://discord.gg/kM8Kp5ds"
     },
     {
-        "blockheight": 45697,
-        "event": "MIA Pool 9 Mining Ends",
-        "link": "https://discord.gg/kM8Kp5ds"
-    },
-    {
         "blockheight": 45497,
         "event": "MIA Cycle 10 Begins",
         "link": "https://miamining.com/stack"
     },
     {
-        "blockheight": 43397,
-        "event": "MIA Cycle 9 Begins",
+        "blockheight": 47597,
+        "event": "MIA Cycle 11 Begins",
         "link": "https://miamining.com/stack"
     }
 ]
