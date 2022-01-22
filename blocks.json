@@ -51,7 +51,12 @@
     },
     {
         "blockheight": 46601,
-        "event": "ALEX lotto tickets claim ends & $ALEX Staking & LP Farm Begin",
+        "event": "ALEX lotto tickets claim ends",
+        "link": "https://discord.gg/TGjeRgax"
+    },
+    {
+        "blockheight": 46601,
+        "event": "ALEX Staking & LP Farm Begin",
         "link": "https://discord.gg/TGjeRgax"
     }
 ]
