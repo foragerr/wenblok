@@ -58,5 +58,10 @@
         "blockheight": 46601,
         "event": "ALEX Staking & LP Farm Opens",
         "link": "https://app.alexlab.co/"
+    },
+    {
+        "blockheight": 47127,
+        "event": "ALEX Staking & LP Farm Cycle 1",
+        "link": "https://app.alexlab.co/"
     }
 ]
