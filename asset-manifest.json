@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/wenblok/static/css/main.56316615.chunk.css",
-    "main.js": "/wenblok/static/js/main.8bee84e5.chunk.js",
-    "main.js.map": "/wenblok/static/js/main.8bee84e5.chunk.js.map",
+    "main.js": "/wenblok/static/js/main.2919560e.chunk.js",
+    "main.js.map": "/wenblok/static/js/main.2919560e.chunk.js.map",
     "runtime-main.js": "/wenblok/static/js/runtime-main.4adaf5e2.js",
     "runtime-main.js.map": "/wenblok/static/js/runtime-main.4adaf5e2.js.map",
-    "static/js/2.9b2dc6a9.chunk.js": "/wenblok/static/js/2.9b2dc6a9.chunk.js",
-    "static/js/2.9b2dc6a9.chunk.js.map": "/wenblok/static/js/2.9b2dc6a9.chunk.js.map",
+    "static/js/2.1cfda14c.chunk.js": "/wenblok/static/js/2.1cfda14c.chunk.js",
+    "static/js/2.1cfda14c.chunk.js.map": "/wenblok/static/js/2.1cfda14c.chunk.js.map",
     "index.html": "/wenblok/index.html",
     "static/css/main.56316615.chunk.css.map": "/wenblok/static/css/main.56316615.chunk.css.map",
-    "static/js/2.9b2dc6a9.chunk.js.LICENSE.txt": "/wenblok/static/js/2.9b2dc6a9.chunk.js.LICENSE.txt"
+    "static/js/2.1cfda14c.chunk.js.LICENSE.txt": "/wenblok/static/js/2.1cfda14c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4adaf5e2.js",
-    "static/js/2.9b2dc6a9.chunk.js",
+    "static/js/2.1cfda14c.chunk.js",
     "static/css/main.56316615.chunk.css",
-    "static/js/main.8bee84e5.chunk.js"
+    "static/js/main.2919560e.chunk.js"
   ]
 }
