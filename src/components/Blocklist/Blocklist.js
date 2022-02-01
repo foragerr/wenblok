@@ -9,6 +9,7 @@ import LocalOffer from "@material-ui/icons/LocalOffer";
 import CheckBoxOutlineBlank from "@material-ui/icons/CheckBoxOutlineBlank"
 import WatchOutlined from "@material-ui/icons/WatchOutlined"
 import WifiTetheringOutlined from "@material-ui/icons/WifiTetheringOutlined"
+import InfoIcon from '@material-ui/icons/Info';
 import LoopOutlined from "@material-ui/icons/LoopOutlined"
 import LinearProgress from "@material-ui/core/LinearProgress";
 import Typography from '@material-ui/core/Typography';
@@ -167,6 +168,21 @@ export default function BlockList({showModal, setShowModal}) {
   return (
     <div>
       <GridContainer>
+
+        <GridItem xs={12}> 
+          <Card>
+            <CardHeader color="warning" stats icon>
+              <CardIcon color="warning">
+                <InfoIcon />
+              </CardIcon>
+              <p className={classes.cardCategory} align="left">Note:</p>
+              <div className={classes.cardTitle} align="center">
+                <h3>WenBlok is moving! Please bookmark <a href="https://fatstx.github.io/wenblok"> https://fatstx.github.io/wenblok </a> </h3>
+              </div>
+            </CardHeader>
+          </Card>
+        </GridItem>
+
         <GridItem xs={12} sm={3} md={3}>
           <Card>
             <CardHeader color="info" stats icon>
