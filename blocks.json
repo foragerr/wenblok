@@ -35,19 +35,25 @@
     {
         "blockheight": 47600,
         "event": "NYC Pool 7 Open for Contribution",
-        "link": "https://syvitamining.com/pool/nyc",
+        "link": "https://syvitamining.com/pool/nyc/7",
+        "tags": [ "NYC", "SYVITA" ]
+    },
+    {
+        "blockheight": 48102,
+        "event": "NYC Pool 7 Closed for Contribution",
+        "link": "https://syvitamining.com/pool/nyc/7",
         "tags": [ "NYC", "SYVITA" ]
     },
     {
         "blockheight": 48150,
         "event": "NYC Pool 7 Mining Begins",
-        "link": "https://syvitamining.com/pool/nyc",
+        "link": "https://syvitamining.com/pool/nyc/7",
         "tags": [ "NYC", "SYVITA" ]
     },
     {
         "blockheight": 49200,
         "event": "NYC Pool 7 Mining Ends",
-        "link": "https://syvitamining.com/pool/nyc",
+        "link": "https://syvitamining.com/pool/nyc/7",
         "tags": [ "NYC", "SYVITA" ]
     },
     
