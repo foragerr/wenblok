@@ -1,63 +1,5 @@
 [
     {
-        "blockheight": 45550,
-        "event": "NYC Pool 5 Mining Begins",
-        "link": "https://syvitamining.com/pool/nyc",
-        "tags": [ "NYC", "SYVITA" ]
-    },
-    {
-        "blockheight": 47552,
-        "event": "NYC Pool 5 Payout",
-        "link": "https://syvitamining.com/pool/nyc",
-        "tags": [ "NYC", "SYVITA" ]
-    },
-    
-    {
-        "blockheight": 47500,
-        "event": "NYC Pool 6 Contribution Closes",
-        "link": "https://syvitamining.com/pool/nyc",
-        "tags": [ "NYC", "SYVITA" ]
-    },
-    {
-        "blockheight": 47500,
-        "event": "NYC Pool 6 Mining Begins",
-        "link": "https://syvitamining.com/pool/nyc",
-        "tags": [ "NYC", "SYVITA" ]
-    },
-    {
-        "blockheight": 48150,
-        "event": "NYC Pool 6 Mining Ends",
-        "link": "https://syvitamining.com/pool/nyc",
-        "tags": [ "NYC", "SYVITA" ]
-    },
-    
-    
-    {
-        "blockheight": 47600,
-        "event": "NYC Pool 7 Open for Contribution",
-        "link": "https://syvitamining.com/pool/nyc/7",
-        "tags": [ "NYC", "SYVITA" ]
-    },
-    {
-        "blockheight": 48102,
-        "event": "NYC Pool 7 Closed for Contribution",
-        "link": "https://syvitamining.com/pool/nyc/7",
-        "tags": [ "NYC", "SYVITA" ]
-    },
-    {
-        "blockheight": 48150,
-        "event": "NYC Pool 7 Mining Begins",
-        "link": "https://syvitamining.com/pool/nyc/7",
-        "tags": [ "NYC", "SYVITA" ]
-    },
-    {
-        "blockheight": 49200,
-        "event": "NYC Pool 7 Mining Ends",
-        "link": "https://syvitamining.com/pool/nyc/7",
-        "tags": [ "NYC", "SYVITA" ]
-    },
-    
-    {
         "blockheight": 48500,
         "event": "NYC Pool 8 Open for Contribution",
         "link": "https://syvitamining.com/pool/nyc",
@@ -91,57 +33,6 @@
     },
     
     {
-        "blockheight": 45698,
-        "event": "MIA Pool 10 Mining Begins",
-        "link": "https://syvitamining.com/pool/mia",
-        "tags": [ "MIA", "SYVITA" ]
-    },
-    {
-        "blockheight": 47800,
-        "event": "MIA Pool 10 Mining Ends",
-        "link": "https://syvitamining.com/pool/mia",
-        "tags": [ "MIA", "SYVITA" ]
-    },
-
-    {
-        "blockheight": 47800,
-        "event": "MIA Pool 11 Contributions Closes",
-        "link": "https://syvitamining.com/pool/mia",
-        "tags": [ "MIA", "SYVITA" ]
-    },
-    {
-        "blockheight": 47800,
-        "event": "MIA Pool 11 Mining Begins",
-        "link": "https://syvitamining.com/pool/mia",
-        "tags": [ "MIA", "SYVITA" ]
-    },
-    {
-        "blockheight": 48850,
-        "event": "MIA Pool 11 Mining Ends",
-        "link": "https://syvitamining.com/pool/mia",
-        "tags": [ "MIA", "SYVITA" ]
-    },
-    
-    {
-        "blockheight": 48200,
-        "event": "MIA Pool 12 Contributions Opens",
-        "link": "https://syvitamining.com/pool/mia",
-        "tags": [ "MIA", "SYVITA" ]
-    },
-    {
-        "blockheight": 48850,
-        "event": "MIA Pool 12 Mining Begins",
-        "link": "https://syvitamining.com/pool/mia",
-        "tags": [ "MIA", "SYVITA" ]
-    },
-    {
-        "blockheight": 49800,
-        "event": "MIA Pool 12 Mining Ends",
-        "link": "https://syvitamining.com/pool/mia",
-        "tags": [ "MIA", "SYVITA" ]
-    },
-    
-    {
         "blockheight": 45497,
         "event": "MIA Cycle 10 Begins",
         "link": "https://miamining.com/stack",
@@ -158,12 +49,5 @@
         "event": "MIA Cycle 12 Begins",
         "link": "https://miamining.com/stack",
         "tags": [ "MIA" ]
-    },
-    
-    {
-        "blockheight": 47127,
-        "event": "ALEX Staking & LP Farm Cycle 1",
-        "link": "https://app.alexlab.co/",
-        "tags": [ "ALEX" ]
     }
 ]
