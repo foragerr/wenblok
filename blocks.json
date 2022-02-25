@@ -1,12 +1,5 @@
 [
     {
-        "blockheight": 48500,
-        "event": "NYC Pool 8 Open for Contribution",
-        "link": "https://syvitamining.com/pool/nyc",
-        "tags": [ "NYC", "SYVITA" ]
-    },
-    
-    {
         "blockheight": 47449,
         "event": "NYC Block Reward Drop 250k -> 100k",
         "link": "https://docs.citycoins.co/core-protocol/token-configuration#issuance-schedule",
@@ -14,39 +7,39 @@
     },
     
     {
-        "blockheight": 45848,
-        "event": "NYC Cycle 4 Begins",
-        "link": "https://mining.nyc/stack",
-        "tags": [ "NYC" ]
-    },
-    {
-        "blockheight": 47949,
-        "event": "NYC Cycle 5 Begins",
-        "link": "https://mining.nyc/stack",
-        "tags": [ "NYC" ]
-    },
-    {
         "blockheight": 50049,
         "event": "NYC Cycle 6 Begins",
         "link": "https://mining.nyc/stack",
         "tags": [ "NYC" ]
     },
+    {
+        "blockheight": 52149,
+        "event": "NYC Cycle 7 Begins",
+        "link": "https://mining.nyc/stack",
+        "tags": [ "NYC" ]
+    },
+    {
+        "blockheight": 54249,
+        "event": "NYC Cycle 8 Begins",
+        "link": "https://mining.nyc/stack",
+        "tags": [ "NYC" ]
+    },
     
-    {
-        "blockheight": 45497,
-        "event": "MIA Cycle 10 Begins",
-        "link": "https://miamining.com/stack",
-        "tags": [ "MIA" ]
-    },
-    {
-        "blockheight": 47597,
-        "event": "MIA Cycle 11 Begins",
-        "link": "https://miamining.com/stack",
-        "tags": [ "MIA" ]
-    },
     {
         "blockheight": 49697,
         "event": "MIA Cycle 12 Begins",
+        "link": "https://miamining.com/stack",
+        "tags": [ "MIA" ]
+    },
+    {
+        "blockheight": 51797,
+        "event": "MIA Cycle 13 Begins",
+        "link": "https://miamining.com/stack",
+        "tags": [ "MIA" ]
+    },
+    {
+        "blockheight": 53897,
+        "event": "MIA Cycle 14 Begins",
         "link": "https://miamining.com/stack",
         "tags": [ "MIA" ]
     }
